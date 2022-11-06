@@ -1,15 +1,23 @@
 {
-  "name": "pasta-do-heldin",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mocha": "^10.1.0"
-  }
+    "name": "entregavel4_ambientes",
+    "version": "1.0.0",
+    "description": "Proposta da atividade: código limpo, sincronizado e testado unitariamente",
+    "main": "algoritmos.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pthumeriano/Entregavel4_ambientes.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pthumeriano/Entregavel4_ambientes/issues"
+    },
+    "homepage": "https://github.com/Pthumeriano/Entregavel4_ambientes#readme",
+    "devDependencies": {
+        "jest": "^29.2.2"
+    }
 }

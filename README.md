@@ -1,15 +1,14 @@
 # Entregavel4_ambientes
 Proposta da atividade: código limpo, sincronizado e testado unitariamente
 
-Funções implementadas: Somar um conjunto de números verificar se um número é primo.
+Dependencias: node, jest
 
-Como testar: 
+como executar os testes:
 
-somatorio():
+na pasta do projeto, execute os comandos: 
 
-
-ehPrimo():
-
+npm install jest
+npm run test
 
 
 

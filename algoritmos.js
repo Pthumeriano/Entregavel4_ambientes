@@ -56,21 +56,21 @@ class Algoritmo {
     maximoDivisorComum(numero1, numero2) {
         if (typeof(numero1) && typeof(numero2) == 'number') {
             //todo numero é divisivel por 1
-            let mdc = 1;
+            let maxDivComum = 1;
 
             if (numero1 < numero2) {
-                let aux = numero1;
+                let varAuxiliar = numero1;
                 numero1 = numero2;
-                numero2 = aux;
+                numero2 = varAuxiliar;
             }
             //quando achar, encerra o for
             for (let i = numero1; i > 1; i--) {
                 if (numero1 % i == 0 && numero2 % i == 0) {
-                    mdc = i;
+                    maxDivComum = i;
                     break;
                 }
             }
-            return mdc;
+            return maxDivComum;
         }
         return 0;
     }
@@ -106,9 +106,9 @@ class Algoritmo {
                 for (let j = 0; j < vetor.length - 1; j++) {
                     try {
                         if (parseInt(vetor[j]) > parseInt(vetor[j + 1])) {
-                            let aux = vetor[j];
+                            let varAuxiliar = vetor[j];
                             vetor[j] = vetor[j + 1];
-                            vetor[j + 1] = aux;
+                            vetor[j + 1] = varAuxiliar;
                         }
                     } catch (error) {
 
